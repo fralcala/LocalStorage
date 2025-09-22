@@ -43,7 +43,7 @@ function addStudent(student) {
 }
 
 function getStudents() {
-  $("#app").empty();
+  $("#allStudentInfo").empty();
   let allStudents = JSON.parse(localStorage.getItem("students"));
   let studentString = "<div>";
   $.each(allStudents, (index, student) => {
@@ -56,7 +56,7 @@ function getStudents() {
   });
 
   studentString += "</div>";
-  $("#app").html(studentString);
+  $("#allStudentInfo").html(studentString);
 }
 
 function connectToStorage() {
