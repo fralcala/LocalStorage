@@ -6,7 +6,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "serve": "live-sever"
+    "serve": "live-server"
   },
   "keywords": [],
   "author": "",
